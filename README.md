@@ -56,7 +56,7 @@ El servidor estará disponible en: [http://127.0.0.1:8000](http://127.0.0.1:8000
 ### Endpoints Disponibles
 | Método | Ruta | Descripción |
 |---------|------|-------------|
-| `GET` | `/convert/?amount=100&to_currency=EUR` | Convierte 100 USD a EUR |
+| `GET` | `/convert/?amount=10&from_currency=USD&to_currency=COP` | Convierte 10 USD a COP |
 | `GET` | `/docs` | Documentación Swagger |
 
 ## Ejemplo de Respuesta
